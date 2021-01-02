@@ -43,9 +43,6 @@ const tabThree = {
   link that you can send at the click of a button.",
 };
 
-if (window.matchMedia("(min-width: 759px)").matches) {
-
-
 const menuToggle = () => {
   var navList = nav.classList;
   if (window.matchMedia("(max-width: 759px)").matches) {
